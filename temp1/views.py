@@ -6,3 +6,5 @@ def index(request):
     return render(request, 'C:/Users/HP/Desktop/piyush django/inherit1/templates/index.html', )
 
 
+def child(request):
+    return render(request, 'C:/Users/HP/Desktop/piyush django/inherit1/templates/child.html', )
